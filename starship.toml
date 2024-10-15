@@ -22,7 +22,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style)"
 
 [git_branch]
 format = " [$symbol$branch]($style) "
-symbol = "💩 "
+symbol = "💩"
 style = "bold yellow"
 
 [git_commit]
@@ -34,15 +34,15 @@ format = '[\($state( $progress_current of $progress_total)\)]($style) '
 
 [git_status]
 conflicted = "🆘 "
-ahead = "🏁 ×${count} "
-behind = "🐢 ×${count} "
-diverged = "⑂ 🏁 ×${ahead_count} 🐢 ×${behind_count} "
-untracked = "🔍 ×${count} "
-stashed = "💽 "
-modified = "📝 ×${count} "
-staged = "💾 ×${count} "
-renamed = "📛 ×${count} "
-deleted = "❎ ×${count} "
+ahead = "🏁×${count} "
+behind = "🐢×${count} "
+diverged = "⑂ 🏁×${ahead_count} 🐢×${behind_count} "
+untracked = "🔍×${count} "
+stashed = "💽"
+modified = "📝×${count} "
+staged = "💾×${count} "
+renamed = "📛×${count} "
+deleted = "❎×${count} "
 style = "bright-red"
 format = "$all_status$ahead_behind"
 
